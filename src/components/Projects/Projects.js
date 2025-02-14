@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 import pydown from "../../Assets/Projects/pydown.png";
 import hospital from "../../Assets/Projects/hospital.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
