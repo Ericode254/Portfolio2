@@ -6,6 +6,8 @@ import emotion from "../../Assets/Projects/emotion.png";
 import pydown from "../../Assets/Projects/pydown.png";
 import hospital from "../../Assets/Projects/hospital.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import devtechblog from "../../Assets/Projects/devtechblog.png"
+import interviewer from "../../Assets/Projects/interviewer.png"
 
 function Projects() {
   return (
@@ -26,7 +28,7 @@ function Projects() {
               title="StrokeCare"
               description="A simple hospital system that enanbles users to get predictions of there stroke status from a trained model"
               ghLink="https://github.com/Ericode254/HospitalSystemClient.git"
-              // demoLink="https://chatify-49.web.app/"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -37,7 +39,7 @@ function Projects() {
               title="Edumeet"
               description="Edumeet is a platform where students can get access to events happening in their respective instutions and give feedback"
               ghLink="https://github.com/Ericode254/EdumeetClient.git"
-              // demoLink="https://blogs.soumya-jit.tech/"
+            // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -48,30 +50,30 @@ function Projects() {
               title="PyDown"
               description="PyDown is a command line application that enables you to download video/audio form youtube and also you can play the video directly from your terminal"
               ghLink="https://github.com/Ericode254/PyDown.git"
-              // demoLink="https://editor.soumya-jit.tech/"
+            // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card"> */}
-          {/*   <ProjectCard */}
-          {/*     imgPath={leaf} */}
-          {/*     isBlog={false} */}
-          {/*     title="Edumeet" */}
-          {/*     description="Edumeet is a platform that enables teachers or mentors to host meetings that students can react to and submit their attendance" */}
-          {/*     ghLink="" */}
-          {/*     // demoLink="https://plant49-ai.herokuapp.com/" */}
-          {/*   /> */}
-          {/* </Col> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={devtechblog}
+              isBlog={false}
+              title="devtechblog"
+              description="Devtechblog is my own personal blog where i talk about tech and linux and also note taking as a crucial part of learning"
+              ghLink="https://github.com/Ericode254/neo-blog-scribe.git"
+              demoLink="https://devtechblog.netlify.app/"
+            />
+          </Col>
 
-          {/* <Col md={4} className="project-card"> */}
-          {/*   <ProjectCard */}
-          {/*     imgPath={suicide} */}
-          {/*     isBlog={false} */}
-          {/*     title="Ai For Social Good" */}
-          {/*     description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention." */}
-          {/*     ghLink="https://github.com/soumyajit4419/AI_For_Social_Good" */}
-          {/*   /> */}
-          {/* </Col> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={interviewer}
+              isBlog={false}
+              title="Interviewer"
+              description="Interviewer is a platform where recruitors can signup and host interviews for their interviewees without physically meeting"
+              ghLink="https://interviewhost.netlify.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -80,7 +82,7 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="A face recognition application that can be able to detect faces"
               ghLink="https://github.com/Ericode254/FaceDetection.git"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
