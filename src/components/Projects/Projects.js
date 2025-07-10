@@ -71,7 +71,8 @@ function Projects() {
               isBlog={false}
               title="Interviewer"
               description="Interviewer is a platform where recruitors can signup and host interviews for their interviewees without physically meeting"
-              ghLink="https://interviewhost.netlify.app/"
+              ghLink="https://github.com/Ericode254/Interviewer.git"
+              demoLink="https://interviewhost.netlify.app/"
             />
           </Col>
 
