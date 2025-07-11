@@ -48,7 +48,7 @@ function Projects() {
               imgPath={pydown}
               isBlog={false}
               title="PyDown"
-              description="PyDown is a command line application that enables you to download video/audio form youtube and also you can play the video directly from your terminal"
+              description="PyDown is a command line application that enables you to download video/audio from youtube and also you can play the video directly from your terminal"
               ghLink="https://github.com/Ericode254/PyDown.git"
             // demoLink="https://editor.soumya-jit.tech/"
             />
