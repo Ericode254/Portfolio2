@@ -20,13 +20,13 @@ function Home2() {
               <br />
               <br />I am fluent in several languages
               <i>
-                <b className="purple"> C, Python, Javascript and Go. </b>
+                <b className="purple"> C, Python, Javascript, Go, Rust e.t.c </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest is building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies and Products / building CLI tools</b> and
                 also in areas related to{" "}
                 <b className="purple">Sytem maintainance/Admin</b>
               </i>
@@ -34,7 +34,7 @@ function Home2() {
               <br />
               Whenever possible, I also apply my passion for developing backend
               systems/api for products with{" "}
-              <b className="purple">Node.js, Python and Go</b> and am also a bit
+              <b className="purple">Node.js, Python, nestjs and Go</b> and am also a bit
               familiar with frontend technologies
               <i>
                 <b className="purple"> Modern Javascript Library</b>
